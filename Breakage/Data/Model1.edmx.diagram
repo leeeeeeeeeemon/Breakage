@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a945c07c5dc5434cb22823435d7c1701" Name="Diagram1">
+        <EntityTypeShape EntityType="polomkaModel.Client" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.ClientService" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.Gender" Width="1.5" PointX="1.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.Service" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.ServicePhoto" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.sysdiagram" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.Tag" Width="1.5" PointX="3.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="polomkaModel.TagOfClient" Width="1.5" PointX="6" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="polomkaModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_TagOfClient_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.FK_TagOfClient_Tag" ManuallyRouted="false" />
+        <AssociationConnector Association="polomkaModel.AttachedProduct" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
